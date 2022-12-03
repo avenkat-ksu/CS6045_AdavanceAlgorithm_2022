@@ -102,7 +102,7 @@ public class NQueensImprovementsApplication {
     }
 
     /* A method to check if the queen can be placed in any cells of each row for given column i.e. on board [x][column]
-    where i is row indices. To do this, we can check upwardDiagonals[row + column] and
+    where x is row indices. To do this, we can check upwardDiagonals[row + column] and
     downwardDiagonals[row - column + N - 1], along with columns[row].
     */
     static boolean isPossibleToPlaceQueen(int[][] board, int row, int column)
